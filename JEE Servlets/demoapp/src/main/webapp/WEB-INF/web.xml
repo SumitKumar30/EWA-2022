@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>HelloServlet</servlet-name>
+  	<display-name>HelloServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.ncu.demo.HelloServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DemoServlet</servlet-name>
+  	<display-name>DemoServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.ncu.demo2.DemoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HelloServlet</servlet-name>
+  	<url-pattern>/HelloServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DemoServlet</servlet-name>
+  	<url-pattern>/DemoServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
